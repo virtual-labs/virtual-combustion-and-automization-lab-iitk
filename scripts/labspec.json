@@ -27,7 +27,7 @@
                     }, 
                     "department": "", 
                     "institute": "IIT Kanpur", 
-                    "name": "", 
+                    "name": "Dr. D. Goswami", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -41,39 +41,87 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "", 
                     "name": "", 
                     "organization": "", 
-                    "role": "Lab RA", 
+                    "role": "", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "", 
+                    "name": "", 
+                    "organization": "", 
+                    "role": "", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "", 
+                    "name": "", 
+                    "organization": "", 
+                    "role": "", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "", 
+                    "name": "", 
+                    "organization": "", 
+                    "role": "", 
                     "title": "", 
                     "web": ""
                 }
             ], 
             "discipline": [
-                ""
+                "Chemical Engineering"
             ], 
-            "id": "phy01", 
-            "integration_level": 4, 
-            "name": "Virtual Astrophysics Lab", 
+            "id": "chs13", 
+            "integration_level": 5, 
+            "name": "Ultra-fast", 
             "server-side": true, 
             "status": "Released", 
-            "type": "Simulation"
+            "type": ""
         }, 
         "runtime_requirements": {
             "platform": {
                 "arch": "i386", 
                 "hosting": "dedicated", 
-                "installer": ["sudo apt-get update","sudo apt-get install -y php5 apache2"], 
+                "installer": ["sudo apt-get update",
+                "sudo apt-get install -y php5 apache2"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["cp -r ../build/* /var/www/","mv /var/www/index.html index.html.default"], 
+                    "init": ["mv /var/www/index.html index.html.default",
+                        "cp -r ../build/* /var/www/"
+                        ], 
                     "pause": [], 
                     "publish": [], 
                     "restore": [], 
                     "resume": [], 
                     "shutdown": ["service apache2 stop"], 
-                    "start": ["service apache2 start"], 
+                    "start": ["service apache2 start"],  
                     "stats": [], 
                     "stop": []
                 }, 
