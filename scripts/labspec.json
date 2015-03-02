@@ -27,7 +27,7 @@
                     }, 
                     "department": "", 
                     "institute": "IIT Kanpur", 
-                    "name": "Dr. D. Goswami", 
+                    "name": "Dr. D.P. Mishra", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Chemical Engineering"
+                ""
             ], 
-            "id": "chs13", 
+            "id": "", 
             "integration_level": 5, 
-            "name": "Ultra-fast", 
+            "name": "Combustion and automization", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
@@ -109,7 +109,8 @@
                 "arch": "i386", 
                 "hosting": "dedicated", 
                 "installer": ["sudo apt-get update",
-                "sudo apt-get install -y php5 apache2"], 
+                "sudo apt-get install -y php5 apache2",
+                "sudo apt-get install mysql-server"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
