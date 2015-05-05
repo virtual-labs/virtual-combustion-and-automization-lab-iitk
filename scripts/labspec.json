@@ -110,7 +110,7 @@
                 "hosting": "dedicated", 
                 "installer": ["sudo apt-get update",
                 "sudo apt-get install -y php5 apache2",
-                "sudo apt-get install mysql-server"], 
+                "sudo apt-get install -y mysql-server"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
