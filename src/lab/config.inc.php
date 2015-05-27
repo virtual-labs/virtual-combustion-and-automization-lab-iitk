@@ -1,7 +1,7 @@
 <?php
 
 # Database name
-$db = "";
+$db = "comb";
 
 # Internet address or hostname of database host
 $db_host = "localhost";
