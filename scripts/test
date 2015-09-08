@@ -1,5 +1,5 @@
 # test script checks if all the services used by the lab are running properly
-# or not.
+# or not...
 # This script also tests the backup and restore scripts in case the
 # lab uses any data.
 # Since Virtual Combustion and Atomization Laboratory  only needs Apache to run all the time,
