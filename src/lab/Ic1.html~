@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Ionic conductivity </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+	    background:green  ;
+        padding-top: 50px;
+        
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+         <a class="brand" href="home page.html">Home</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="experiments.html#page">Experiments</a></li>
+              <li><a href="contact.html#page">Contact</a></li>
+			  <li><a href="mailto:kbalani@iitk.ac.in">Feedback</a></li>
+			  <li><a href="self.html#page">Self Analysis</a></li>
+               </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" >
+	     <div class="row-fluid">
+            <div align="center" class="span2  "><br><img  title="Indian Institute Of Technology" src="img/index01.png" alt="Indian Institute Of Technology"><br><br>
+			<a  class="btn btn-danger" href="http://www.iitk.ac.in"><h4>IIT Kanpur  </h4></a>
+			</div>
+
+			
+		    <div class="span6 offset1 ">
+                      
+                <br><br><br><img class="img-polaroid" title="Virtual Laboratory" src="img/virtual.png" alt="Indian Institute Of Technology">
+		  
+	    </div>
+		<div class="span2 offset1 "><br><br><br><img class="img-polaroid" title="Indian Institute Of Technology" src="img/index20.jpg" alt="MHRD Govt. Of India"><br><br>
+			
+			</div>
+		
+	  </div>
+	  <hr>
+
+      <!-- Example row of columns -->
+	
+      <div class="row-fluid" id="page">
+	      <div class="span8">
+            <div class="hero-unit" align="justify">
+			   
+<h4 align="center" class="alert alert-success">
+
+			
+			
+
+                                       Ionic conductivity YSZ electrolyte material for solid oxide fuel cell applications.</h4>
+				
+			<h4  >	
+			            
+					Objective 
+				
+			</h4>
+<h4 class="alert alert-info">   Ionic conductivity YSZ electrolyte material for solid oxide fuel cell applications. </h4>       
+                  </td>
+			       
+                         
+
+			
+       <h4 >
+               <p>
+          Introduction
+       </p>
+   </h4>
+           
+		<h4 class="alert alert-success" align="justify"><font face="Times New Roman"  color="Black"><p>Ionic conductivity is the ability of a material to conduct electric current. The conductivity (&sigma;), is expressed as the inverse of resistivity (&rho;) i.e., &sigma; = 1/&rho; and its unit is Siemens. Specific conductivity is the reciprocal of the specific resistance of a solution measured between two electrodes 1 cm2 in area and 1 cm apart.  Conductivity is measured by placing two electrodes (with opposite electrical charge) in the electrolyte.  For a known electrical current, the voltage drop across the electrodes reveals the electrolyte's  resistance.</p></font></h4>
+	
+			
+<h4 >	
+				
+					Methodology
+				
+			</h4>
+
+
+          
+<h4 class="alert alert-success" align="justify"><font face="Times New Roman"  color="Black">
+1) sample is fixed in between the electrodes of sample holder and is placed in furnace.</br>
+2) thermocoule wires of sample holder are connected to furnace temperatute controller and furnace temperature is programmed as per requirement.</br>
+3) electode wires of sample holder are connected to LCR meter.</br>
+4) LCR meter generates impedance(z) - phase angle(theta) data for frequencies variyng from 20 to 2 MHz using Lab view software.</br>
+5) Plot of z' (Zcos(theta) i.e.resisatance ) Vs z" ((-)Zsin(theta) i.e. capacitance ), named as 'Nyquist plot', is drawn.</br>
+6) bulk, grain and electrode impedance behaviour are figured out from this Nyquist plot. </br>
+</font>
+</h4>
+			
+				
+			<h4  >	
+				
+					Results
+				
+			</h4>
+
+			
+			<h4 class="alert alert-success" align="justify"><font face="Times New Roman"  color="Black">
+				following Ionic conductivity YSZ electrolyte material for solid oxide fuel cell applications.</font></h4>
+</br>
+<a class="btn" href="img/8YSZ SAMPLE.jpg">Arrhenius plots for the 8YSZ sample
+</a>
+<br>
+			
+	<a class="btn" href="5mol.html">Arrhenius plots for the 5 wt.% CeO2 doped 8YSZ sample</a></h4>
+
+	
+			
+				
+			<h4  class="alert alert-info">	
+				
+					Conclusions
+				
+			</h4>
+
+	
+			<h4>
+				<a href="http://deploy.virtual-labs.ac.in/labs/mech08/results.html">Click the following link for conclusions:</a> <br />
+	 
+
+	   </div>
+        </div>
+		<div  class="span4">
+		<div class="hero-unit">
+		 <h4  class="alert alert-info">
+            
+                     
+               
+					VIRTUAL EXPERIMENTS
+				
+			
+                               
+                      </h4>
+
+               				Please select the following to view the image.
+    		
+
+                         
+		
+			
+
+		<a class="btn" href="img/8YSZ SAMPLE.jpg">Arrhenius plots for the 8YSZ sample</a>
+				
+                                       
+
+				<a class="btn" href="5mol.html">Arrhenius plots for the 5 wt.% CeO2 doped 8YSZ sample</a>
+				
+		</div>
+		</div>
+				
+<div class="span10 offset1">
+            
+			         	 
+						       <div class="btn-group">
+    <a class="btn" href="creep.html">Creep</a>
+    <a class="btn" href="nano.html">Nano Indentation</a>
+    <a class="btn" href="wetting.html">Wetting</a>
+	<a class="btn" href="flu.html">Fluorescence Micropscopy</a>
+    <a class="btn" href="ionic conductivity.html">Ionic Conductivity</a>
+	<a class="btn" href="people.html">People Involved</a>
+						 
+	   
+        </div>
+		
+</div>
+		
+</div>
+
+
+      <hr>
+	  
+
+      <footer>
+         <div align="right"><font color=#7B68EE><p>&copy;  Designed By<a class="text text-warning" href="http://arnium.com/"> Arnium Technologies</a></p></div>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
